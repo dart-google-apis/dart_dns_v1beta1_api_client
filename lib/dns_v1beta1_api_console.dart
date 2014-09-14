@@ -7,6 +7,7 @@ import 'package:google_dns_v1beta1_api/src/console_client.dart';
 import "package:google_dns_v1beta1_api/dns_v1beta1_api_client.dart";
 
 /** The Google Cloud DNS API provides services for configuring and serving authoritative DNS records. */
+@deprecated
 class Dns extends Client with ConsoleClient {
 
   /** OAuth Scope2: View and manage your data across Google Cloud Platform services */
